@@ -1,0 +1,27 @@
+#err-alert {
+    display: flex;
+    position: fixed;
+    inset: 0;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.763);
+    backdrop-filter: blur(10px);
+    z-index: 10000;
+}
+
+#err-alert > section {
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    width: min(350px, 90vw);
+    border-radius: 10px;
+    text-align: center;
+    font-family: var(--monserrat);
+}
+
+#err-alert > section button {
+    width: 100%;
+}
+
+#err-alert > section p {
+    padding: 25px;
+}

@@ -1,0 +1,5 @@
+main {
+    margin-block: 30px;
+    width: min(95vw, 800px);
+    margin-inline: auto;
+}
