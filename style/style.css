@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+
+:root {
+    --custom-primary: #06083f;
+    --custom-secondary: #04052f;
+    --monserrat: 'Montserrat', sans-serif;
+}
+
+body {
+    background: url('../assets/img/CRT2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: opacity(0.5);
+    background-color: var(--custom-primary);
+    background-attachment: fixed;
+}
+
+p {
+    margin: 0 !important;
+}
+
+*::-webkit-scrollbar {
+    width: 10px !important;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: black !important;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #4e4e4e !important;
+    border-radius: 25px !important;
+}

@@ -1,0 +1,35 @@
+.loading {
+    display: flex;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.635);
+    backdrop-filter: blur(10px);
+    z-index: 100000;
+    height: 100vh;
+    color: white;
+    display: none;
+}
+
+.loading > div {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.loading > div > div {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 6px solid white;
+    border-top: 6px solid rgba(0, 0, 0, 0);
+    animation: rotate 1s infinite;
+}
+
+@keyframes rotate {
+    0% {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg;
+    }
+}

@@ -1,0 +1,36 @@
+#update-admin-form form {
+    width: min(600px, 95vw);
+    margin-inline: auto;
+    background-color: rgba(0, 0, 0, 0.777);
+    padding: 25px;
+    margin-top: 70px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+#update-admin-form form input,
+#update-admin-form form label {
+    width: 100%;
+    padding: 10px;
+}
+#update-admin-form form input {
+    margin-bottom: 20px;
+}
+
+#update-admin-form form input[type='submit'] {
+    margin: 0;
+    margin-top: 20px;
+    background-color: var(--custom-secondary);
+    color: white;
+    border: none;
+}
+
+#update-admin-form form input[type='submit']:hover {
+    background-color: var(--custom-primary);
+}
+
+#update-admin-form form label {
+    text-align: start;
+    padding: 0;
+}

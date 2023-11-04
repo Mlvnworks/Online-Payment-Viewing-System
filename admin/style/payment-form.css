@@ -1,0 +1,76 @@
+#payment-form {
+    font-family: serif;
+    position: fixed;
+    height: 100vh;
+    overflow: auto;
+    inset: 0;
+    bottom: 0;
+    background-color: #222222b4;
+    display: flex;
+    backdrop-filter: blur(10px);
+    z-index: 100000;
+    padding: 30px;
+    display: none;
+}
+
+#payment-form > section {
+    margin: auto;
+    width: min(900px, 90vw);
+}
+
+.payment-form-part {
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.payment-selected-student {
+    background-color: white;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.payment-form-student-pic {
+    min-width: 100px;
+    min-height: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.payment-form-student-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.payment-main-form {
+    background-color: rgb(226, 226, 26);
+}
+
+.payment-main-form header {
+    width: 700px;
+    margin-inline: auto;
+}
+
+.payment-main-form header h2 {
+    font-weight: 900;
+}
+
+.school-details {
+    row-gap: 0;
+    column-gap: 18px;
+    font-size: 12px;
+    justify-content: center;
+}
+
+.payment-details label,
+#charges-details label,
+.payment-details input,
+#charges-details input {
+    width: 200px;
+}
+
+.payment-details {
+    padding-bottom: 50px !important;
+}

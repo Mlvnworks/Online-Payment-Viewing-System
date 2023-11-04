@@ -1,0 +1,51 @@
+<section id="update-student-form">
+    <form action="./index.php" method="POST" enctype="multipart/form-data">
+        <header class="mb-4">
+            <h4 class="h4">Update Account</h4>
+        </header>
+        <div>
+            <label for="">Profile photo</label>
+            <input type="hidden" name="profile-pic" id="binary-url-input" required />
+            <input type="file" name="" id="file-input" placeholder="Enter lastname" accept=".png, .jpg, .jpeg, .svg, .gif " />
+        </div>
+        <div>
+            <input type="hidden" name="student-id" id="update-student-id" placeholder="Enter student ID" required />
+        </div>
+        <div>
+            <label for="">Firstname</label>
+            <input type="text" name="firstname" id="update-firstname" placeholder="Enter student ID" required />
+        </div>
+        <div>
+            <label for="">Lastname</label>
+            <input type="text" name="lastname" id="update-lastname" placeholder="Enter lastname" required />
+        </div>
+        <div>
+            <label for="">Middlename</label>
+            <input type="text" name="middlename" id="update-middlename" placeholder="Enter middlename" required />
+        </div>
+
+        <div>
+            <label for="">Year/Section</label>
+            <input type="text" name="year-section" id="update-year-section" placeholder="Example: ACT-1" required />
+        </div>
+        <div>
+            <label for="">Address</label>
+            <input type="text" name="address" id="update-address" placeholder="Student Address" required />
+        </div>
+        <div>
+            <label for="">Email</label>
+            <input type="text" name="email" id="update-email" placeholder="Enter active email" required />
+        </div>
+        <div>
+            <label for="">New password (optional)</label>
+            <input type="password" name="password" id="update-password" placeholder="Enter new password" />
+        </div>
+        <input type="submit" value="Update account" name="update-student-account" />
+        <div class="d-flex divider">
+            <hr />
+            <p>Or</p>
+            <hr />
+        </div>
+        <button class="btn btn-dark w-100" type="button" id="close-edit-account-form">Cancel</button>
+    </form>
+</section>
