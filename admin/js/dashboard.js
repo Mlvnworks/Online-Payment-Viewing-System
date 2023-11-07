@@ -14,7 +14,7 @@ let studentSet = 1;
 const openState = state => {
     switch (state) {
         case 'loading':
-            loadingModal.style.display = 'flex';
+            loadingModal.style.display = 'none';
             studentAccountModal.style.display = 'none';
             break;
         case 'loaded':
