@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="./style/update-student-modal.css">
     <link rel="stylesheet" href="./style/account.css">
 
-    <title>Learning Resources System | Admin</title>
+    <title>Online Payment viewing | Admin</title>
 </head>
 <body>
     <!-- modals -->

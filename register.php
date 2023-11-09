@@ -45,7 +45,7 @@
                 </div>
                 <div>
                     <label for="">Firstname</label>
-                    <input type="text" name="firstname" id="" placeholder="Enter student ID" required>
+                    <input type="text" name="firstname" id="" placeholder="Enter student Firstname" required>
                 </div>
                 <div>
                     <label for="">Lastname</label>
